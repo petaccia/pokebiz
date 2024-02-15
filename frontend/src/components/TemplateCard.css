@@ -1,0 +1,146 @@
+.container {
+  background: linear-gradient(
+    36deg,
+    rgba(16, 20, 20, 0.9584034297312675) 0%,
+    rgba(16, 20, 20, 1) 100%
+  );
+}
+
+.bg-container {
+  background: linear-gradient(
+    135deg,
+    #313131 0%,
+    #070707 25%,
+    #313131 50%,
+    #070707 75%,
+    #313131 100%
+  );
+}
+
+.card-info {
+  background: #3e3e3e;
+}
+/* Cards background color */
+.electric-color {
+  background: linear-gradient(
+    135deg,
+    #fff18a 0%,
+    #ffc800 25%,
+    #fff18a 50%,
+    #ffc800 75%,
+    #fff18a 100%
+  );
+}
+.water-color {
+  background: linear-gradient(
+    135deg,
+    #78b7e1 0%,
+    #1e6ca0 25%,
+    #78b7e1 50%,
+    #1e6ca0 75%,
+    #5fbfff 100%
+  );
+}
+.fire-color {
+  background: linear-gradient(
+    135deg,
+    #dc8e34 0%,
+    #d14200 25%,
+    #dc8e34 50%,
+    #d14200 75%,
+    #dc8e34 100%
+  );
+}
+.normal-color {
+  background: linear-gradient(
+    135deg,
+    #fff8e5 0%,
+    #ddc687 25%,
+    #fff8e5 50%,
+    #ddc687 75%,
+    #fff8e5 100%
+  );
+}
+.flying-color {
+  background: linear-gradient(
+    135deg,
+    #e5f6ff 0%,
+    #8faab8 25%,
+    #e5f6ff 50%,
+    #8faab8 75%,
+    #e5f6ff 100%
+  );
+}
+.grass-color {
+  background: linear-gradient(
+    135deg,
+    #afff8a 0%,
+    #3cbd00 25%,
+    #afff8a 50%,
+    #3cbd00 75%,
+    #afff8a 100%
+  );
+}
+.poison-color {
+  background: linear-gradient(
+    135deg,
+    #e4c3ff 0%,
+    #a340ff 25%,
+    #e4c3ff 50%,
+    #a340ff 75%,
+    #e4c3ff 100%
+  );
+}
+.bug-color {
+  background: linear-gradient(
+    135deg,
+    #daff8a 0%,
+    #9abd00 25%,
+    #daff8a 50%,
+    #9abd00 75%,
+    #daff8a 100%
+  );
+}
+.ground-color {
+  background: linear-gradient(
+    135deg,
+    #ffbd38 0%,
+    #9d6900 25%,
+    #ffbd38 50%,
+    #9d6900 75%,
+    #ffbd38 100%
+  );
+}
+.fairy-color {
+  background: linear-gradient(
+    135deg,
+    #ffc3f2 0%,
+    #fb78de 25%,
+    #ffc3f2 50%,
+    #fb78de 75%,
+    #ffc3f2 100%
+  );
+}
+
+.picture-card-oneProduct {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.card-img-top {
+  height: 270px;
+}
+
+.attack-card {
+  background-color: #0000003a;
+}
+
+.bottom-of-card {
+  font-size: x-small;
+}
+
+.buttonColor {
+  background-color: #ffba35;
+  border: 2px solid orange;
+}

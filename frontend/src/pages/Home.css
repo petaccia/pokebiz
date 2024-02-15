@@ -1,0 +1,199 @@
+/*GENERAL*/
+
+.accueilBackground {
+  background:linear-gradient(
+    135deg,
+    #191919 0%,
+    #070707 25%,
+    #191919 50%,
+    #070707 75%,
+    #191919 100%
+  );
+}
+
+/*IMAGE ACCUEIL*/
+
+.prez {
+  background-image: url("./src/assets/imagesHome/648568.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.btn-warning {
+  border-radius: 10px;
+  background-color: #ffba35;
+}
+
+.btn-warning:hover {
+  color: #ffba35;
+  background-color: black;
+}
+
+/*PREZ INTRO*/
+
+.prezIntro {
+  color: #ffba35;
+}
+
+/*CARROUSEL OFFRE SPECIALE*/
+
+.specialOffer {
+  padding: 30px 10px;
+  font-family: "DM Sans", sans-serif;
+  transition: background 0.4s ease-in;
+}
+
+.cardOffer {
+  width: 400px;
+  height: 100%;
+  left: 0;
+  right: 0;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.carrouselOffer {
+  width: 100%;
+  height: 700px;
+  transform-style: preserve-3d;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+}
+
+.card-info-bis {
+  color: black;
+  background: #3e3e3e;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.card-front-bis {
+  background-color: #ffba35;
+  width: 100%;
+  height: 100%;
+}
+
+.container-card-bis {
+  grid-template-columns: 300px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.bottom-of-card-bis {
+  font-size: 6px;
+  margin: 0;
+  padding: 0;
+  object-fit: fill;
+}
+
+.move-attack {
+  font-size: medium;
+}
+
+.top-of-card {
+  font-size: medium;
+}
+
+.card-img-top-bis {
+  height: 170px;
+  width: 100%;
+}
+
+#item-1:checked ~ .cards #offre-3,
+#item-2:checked ~ .cards #offre-1,
+#item-3:checked ~ .cards #offre-2 {
+  transform: translatex(-40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #offre-2,
+#item-2:checked ~ .cards #offre-3,
+#item-3:checked ~ .cards #offre-1 {
+  transform: translatex(40%) scale(0.8);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #offre-1,
+#item-2:checked ~ .cards #offre-2,
+#item-3:checked ~ .cards #offre-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+.oldPrice {
+  color: red;
+}
+
+/*CHARTE REASSURANCE*/
+
+.whyUs {
+  width: 90%;
+}
+
+.whyUsEx h2 {
+  color: #ffba35;
+}
+
+.logoWhyUs {
+  height: 60px;
+  width: 60px;
+}
+
+.categoryWhyUs {
+  background-color: #414447;
+}
+
+/*SOCIAL MEDIA*/
+
+.socialMedia {
+  width: 90%;
+}
+
+.socialMediaEx h2 {
+  color: #ffba35;
+}
+
+.logoSocialMedia {
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .whyUs {
+    width: 80%;
+  }
+
+  .categoryWhyUs {
+    width: 200px;
+  }
+
+  .socialMedia {
+    width: 50%;
+  }
+
+  .accueilBackground {
+    margin-top: 62px; /*marge pour navbar*/
+  }
+
+  .bottom-of-card-bis {
+    font-size: x-small;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .categoryWhyUs {
+    width: 300px;
+  }
+}

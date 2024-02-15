@@ -1,0 +1,27 @@
+.notFavorite {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-image: url("../assets/pikachu-not-favorite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: all 0.5s;
+}
+
+.notFavorite:hover {
+  transform: scale(1.2);
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/pikachu-favorite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.isFavorite {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-image: url("../assets/pikachu-favorite.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

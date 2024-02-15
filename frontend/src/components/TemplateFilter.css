@@ -1,0 +1,41 @@
+.accordion-button {
+  background-color: #ffba35;
+}
+
+.accordion-button::after {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxzdHlsZT4uY2xzLTEsLmNscy0ye2ZpbGw6bm9uZTt9LmNscy0xe3N0cm9rZTojMDAwO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6M3B4O308L3N0eWxlPjwvZGVmcz48dGl0bGUvPjxnIGlkPSJPdXRsaW5lIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjIxIiBjeT0iMTgiIHI9IjMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjQ0IiBjeT0iMzIiIHI9IjMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjMxIiBjeT0iNDYiIHI9IjMiLz48bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIyNCIgeDI9IjU0IiB5MT0iMTgiIHkyPSIxOCIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjExIiB4Mj0iMTgiIHkxPSIxOCIgeTI9IjE4Ii8+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMzQiIHgyPSI1NCIgeTE9IjQ2IiB5Mj0iNDYiLz48bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIxMSIgeDI9IjI4IiB5MT0iNDYiIHkyPSI0NiIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjQ3IiB4Mj0iNTQiIHkxPSIzMiIgeTI9IjMyIi8+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTEiIHgyPSI0MSIgeTE9IjMyIiB5Mj0iMzIiLz48cmVjdCBjbGFzcz0iY2xzLTIiIGhlaWdodD0iNjQiIHdpZHRoPSI2NCIvPjwvZz48L3N2Zz4=);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxzdHlsZT4uY2xzLTEsLmNscy0ye2ZpbGw6bm9uZTt9LmNscy0xe3N0cm9rZTojMDAwO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6M3B4O308L3N0eWxlPjwvZGVmcz48dGl0bGUvPjxnIGlkPSJPdXRsaW5lIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjIxIiBjeT0iMTgiIHI9IjMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjQ0IiBjeT0iMzIiIHI9IjMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjMxIiBjeT0iNDYiIHI9IjMiLz48bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIyNCIgeDI9IjU0IiB5MT0iMTgiIHkyPSIxOCIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjExIiB4Mj0iMTgiIHkxPSIxOCIgeTI9IjE4Ii8+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMzQiIHgyPSI1NCIgeTE9IjQ2IiB5Mj0iNDYiLz48bGluZSBjbGFzcz0iY2xzLTEiIHgxPSIxMSIgeDI9IjI4IiB5MT0iNDYiIHkyPSI0NiIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjQ3IiB4Mj0iNTQiIHkxPSIzMiIgeTI9IjMyIi8+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTEiIHgyPSI0MSIgeTE9IjMyIiB5Mj0iMzIiLz48cmVjdCBjbGFzcz0iY2xzLTIiIGhlaWdodD0iNjQiIHdpZHRoPSI2NCIvPjwvZz48L3N2Zz4=);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffba35;
+}
+
+.accordion-item {
+  border: 0;
+}
+
+.accordion-body {
+  background-color: #414447;
+}
+
+@media (min-width: 780px) {
+  .filterDesktop {
+    top: -4.9rem;
+    position: relative;
+  }
+  .sidebar {
+    position: absolute;
+    max-width: 200px;
+    transition: transform 0.5s;
+  }
+  .sidebar__trigger:not(:checked) ~ .sidebar {
+    position: fixed;
+  }
+  .accordion-button {
+    padding: 0.5rem 0.8rem;
+  }
+}

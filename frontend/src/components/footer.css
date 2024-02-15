@@ -1,0 +1,44 @@
+.footer-contact {
+  background-color: #1b1918;
+}
+
+/* css desktop */
+
+.input-email,
+.input-name,
+.textarea {
+  height: 50px;
+  border-radius: 10px;
+  background-color: #3e3e3e;
+}
+
+.button {
+  background-color: #ffba35;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.input-email,
+.input-name,
+::placeholder {
+  color: #ffffff;
+}
+
+.footer-list-button {
+  color: #ffba35;
+}
+
+#footer-map {
+  width: 80%;
+}
+
+.footer-copyright {
+  margin-bottom: 65px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-copyright {
+    margin-bottom: 0px;
+  }
+}
