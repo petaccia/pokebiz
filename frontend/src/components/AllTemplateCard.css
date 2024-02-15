@@ -1,0 +1,21 @@
+.bg-container {
+  background: rgb(16, 20, 20);
+  background: linear-gradient(
+    36deg,
+    rgba(16, 20, 20, 0.9584034297312675) 0%,
+    rgba(16, 20, 20, 1) 100%
+  );
+}
+
+.card-img-top {
+  width: 18rem;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+}
+
+.list-group {
+  flex-direction: row;
+}

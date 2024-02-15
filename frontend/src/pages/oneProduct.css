@@ -1,0 +1,35 @@
+@media only screen and (min-width: 768px) {
+  .oneProductPage {
+    margin-top: 62px;
+  }
+}
+
+.pokebiz-card-container {
+  width: 380px;
+}
+
+@media only screen and(max-width:400px) {
+  .pokebiz-card-container {
+    width: 100%;
+  }
+}
+
+.pokebiz-progressBar-oneProduct {
+  max-width: 350px;
+}
+
+.oneProduct-postCard-element {
+  max-width: 350px;
+}
+
+.addQuantityButton {
+  width: 25%;
+}
+
+.addToCartButton {
+  width: 45%;
+}
+
+.priceStyle {
+  color: #ffba35;
+}

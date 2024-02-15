@@ -1,0 +1,19 @@
+{
+  "name": "pokebiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "cd backend/ && node migrate.js && cd ..",
+    "dev": "concurrently -n front,back -c green,yellow -t \"HH:mm:ss\" -p \"{name} {time}\" \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
+    "dev-front": "npm --prefix ./frontend run dev",
+    "dev-back": "npm --prefix ./backend run dev"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
